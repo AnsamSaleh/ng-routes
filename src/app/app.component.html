@@ -1,0 +1,31 @@
+<div>
+  <ul class="nav">
+    <li class="nav-item">
+      <a class="nav-link active" href="#">Logo</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" [routerLink]="['/home']">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" [routerLink]="['/about']">About</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" [routerLink]="['/contact']">Contact</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" [routerLink]="['/nested']">Nested</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" [routerLink]="['/photos']">Photos</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" [routerLink]="['/login']">Login</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" [routerLink]="['/signup']">Sign Up</a>
+    </li>
+  </ul>
+  <div class="container mt-5">
+    <router-outlet></router-outlet>
+  </div>
+</div>
