@@ -9,6 +9,7 @@ import {Child1Component} from './nested/child1/child1.component';
 import {Child2Component} from './nested/child2/child2.component';
 import {LoginComponent} from './login/login.component';
 import {SignupComponent} from './signup/signup.component';
+import {AccountComponent} from './account/account.component';
 
 const routes: Routes = [
   // basic routes
@@ -27,6 +28,9 @@ const routes: Routes = [
       { path: 'child2', component: Child2Component},
     ]
   },
+  { path: 'login', component: LoginComponent },
+  { path: 'signup', component: SignupComponent },
+  { path: 'account', component: AccountComponent },
   {path: '**', component: HomeComponent}
 ];
 
